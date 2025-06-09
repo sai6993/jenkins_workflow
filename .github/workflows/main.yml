@@ -1,4 +1,4 @@
-# deployment_to_hub/.github/workflows/trigger-jenkins.yml
+# .github/workflows/trigger-jenkins.yml
 name: Trigger Jenkins Job
 
 on:
