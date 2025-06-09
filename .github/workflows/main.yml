@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Jenkins via Webhook
-        run: |
+        run: 
           curl -X POST "http://192.168.43.118:8080/job/deployment_to_hub/build?token=myToken123"
